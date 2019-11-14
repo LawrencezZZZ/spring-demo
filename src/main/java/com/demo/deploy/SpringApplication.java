@@ -5,7 +5,7 @@ import org.apache.catalina.startup.Tomcat;
 
 public class SpringApplication {
     public static void run(){
-        System.out.println("init deploy");
+        System.out.println("init tomcat");
         Tomcat tomcat = new Tomcat();
         tomcat.setPort(8080);
 

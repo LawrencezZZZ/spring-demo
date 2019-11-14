@@ -9,6 +9,7 @@ import javax.servlet.ServletRegistration;
 
 public class MyWebApplicationInitializer implements WebApplicationInitializer {
 
+    @Override
     public void onStartup(ServletContext servletCxt) {
         System.out.println("init spring context");
         // Load Spring web application configuration
